@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/JobFit-AI%20Resume%20Analyzer-00d9c8?style=for-the-badge&logo=target&logoColor=white" />
+<img src="https://img.shields.io/badge/JobFit-AI%20Resume%20Analyzer-00d9c8?style=for-the-badge&logoColor=white" />
 
 # JobFit
 
@@ -8,10 +8,13 @@
 
 AI-powered resume analyzer that helps IT professionals stop wasting time on wrong applications and start landing more interview calls.
 
+**[Live Demo](https://fi-tjob.vercel.app)** · **[Report Bug](https://github.com/Pinaki-18/FITjob/issues)** · **[Request Feature](https://github.com/Pinaki-18/FITjob/issues)**
+
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Groq](https://img.shields.io/badge/Groq_AI-F55036?style=for-the-badge&logo=groq&logoColor=white)](https://groq.com/)
+[![Groq](https://img.shields.io/badge/Groq_AI-F55036?style=for-the-badge&logoColor=white)](https://groq.com/)
 [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://fi-tjob.vercel.app)
 
 </div>
 
@@ -73,6 +76,10 @@ JobFit gives you instant clarity. Upload your resume, paste a job description, a
     <td><strong>Job Search</strong></td>
     <td>JSearch API via RapidAPI</td>
   </tr>
+  <tr>
+    <td><strong>Deployment</strong></td>
+    <td>Vercel (Frontend) + Render (Backend)</td>
+  </tr>
 </table>
 
 ---
@@ -88,8 +95,8 @@ JobFit gives you instant clarity. Upload your resume, paste a job description, a
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/Pinaki-18/jobfit.git
-cd jobfit
+git clone https://github.com/Pinaki-18/FITjob.git
+cd FITjob
 ```
 
 **2. Setup the backend**
@@ -123,10 +130,12 @@ Open `http://localhost:3000` in your browser.
 
 ## How It Works
 
-1. **Upload Resume** — Upload your resume as a PDF
-2. **Paste Job Description** — Copy the JD from any job portal
-3. **AI Analysis** — Groq AI analyzes both and generates your match score
-4. **Apply Smarter** — Use keyword suggestions and browse matching jobs
+| Step | Action |
+|------|--------|
+| 1 | Upload your resume as a PDF |
+| 2 | Paste the job description from any job portal |
+| 3 | Groq AI analyzes both and generates your match score |
+| 4 | Use keyword suggestions and browse matching live jobs |
 
 ---
 
@@ -135,10 +144,10 @@ Open `http://localhost:3000` in your browser.
 **Pinaki Mishra**
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pinaki-18)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-username)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pinaki18mishra)
 
 ---
 
 <div align="center">
-  If you found this helpful, consider giving it a star!
+If you found this helpful, consider giving it a star!
 </div>
