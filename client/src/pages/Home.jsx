@@ -40,7 +40,7 @@ export default function Home() {
       formData.append('resume', file);
       formData.append('jobDescription', jd);
 
-      const res = await axios.post('/api/analyze', formData, {
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/api/analyze`, formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       });
 

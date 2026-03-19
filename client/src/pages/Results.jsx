@@ -175,7 +175,7 @@ export default function Results() {
     if (!analysis?.jobTitle) return;
     const fetchJobs = async () => {
       try {
-        const res = await axios.get(`/api/jobs?query=${encodeURIComponent(analysis.jobTitle)}`);
+        const res = await axios.get(`${import.meta.env.VITE_API_URL}/api/jobs?query=${encodeURIComponent(analysis.jobTitle)}`);
         setJobs(res.data.jobs || []);
       } catch (err) {
         setJobsError('Could not load jobs. Check your RapidAPI key.');
